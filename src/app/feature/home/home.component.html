@@ -1,0 +1,42 @@
+<app-menu></app-menu>
+<img id="imageBanner" src="../../../assets/5C11.jpg" alt="Edificio con ventanas grandes">
+<h1>3D Space <br> and Product <br> Visualizations</h1>
+<a class="redirection" id="redirectionWork" href="">
+    WORK 
+    <img src="../../../assets/arrow.png" alt="Arrow">
+</a>
+<h2>ABOUT ME</h2>
+<p>
+    I'm a drafter by profession and a 3d artist by passion and because
+    of this my interests are related to design, architecture and archviz.
+    I have worked for more than 10 years providing customers the opportunity
+    to visualize their projects, where the main objective has always been
+    creating an extraordinary closeness to reality; which as a result
+    facilitates the understanding of the conceptual design, finishes and
+    colours, and most importantly, the making of decisions in this respect.
+    Distribution companies of recognized worldwide brands have given me
+    the opportunity to participate in the development of interior design
+    and specification of furniture, architectural elements, for corporate
+    spaces, interiors, residential and hospitality projects.
+
+    I have practiced different digital means of visualization that includes plans,
+    construction details, animations, product presentations.
+</p>
+<h2>WORK</h2>
+<div *ngFor="let card of cards" id="card">
+    <figure>
+        <img id="image" src="{{card.image}}" alt="{{card.alt}}">
+    </figure>
+    <div id="description">
+        <h3>{{card.category}}</h3>
+        <p>{{card.description}}</p>
+    </div>
+</div>
+<a class="redirection" id="redirectionView" href="">
+    VIEW ALL WORK
+    <img src="../../../assets/arrow.png" alt="Arrow">
+</a>
+<h2 class="invitation">Do you have a project on mind?</h2>
+<h2 class="invitation">Let's Work Together</h2>
+<a href="">xxxxxxxxxxxx@gmail.com</a>
+<a href="">Instagram</a>
