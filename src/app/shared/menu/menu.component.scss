@@ -5,8 +5,25 @@ nav {
 
 p {
     font-size: 24px;
-    font-weight: 700;
     line-height: 34px;
     color: #003C55;
     margin-right: 40%;
+}
+
+div, p {
+    margin-top: 9px;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    color: #003C55;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    border: none;
 }
