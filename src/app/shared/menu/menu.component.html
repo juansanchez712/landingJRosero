@@ -1,5 +1,6 @@
 <nav>
-    <p>JORGE <strong>ROSERO</strong></p>
+  <img src="../../../assets/logo.ico" alt="Logo de Jorge Rosero" width="auto">
+    <p [style.opacity]="opacity" (window:scroll)="navbarScroll()">JORGE <strong>ROSERO</strong></p>
     <div class="dropdown">
         <a id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
           <img src="../../../assets/menu.png" alt="menu burguer" loading="lazy">
@@ -12,3 +13,5 @@
         </ul>
       </div>
 </nav>
+
+
