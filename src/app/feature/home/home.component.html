@@ -1,23 +1,29 @@
 <app-menu></app-menu>
 <img id="imageBanner" src="../../../assets/5C11.jpg" alt="Edificio con ventanas grandes" loading="lazy">
 <h1>3D Space <br> and Product <br> Visualizations</h1>
-<a class="redirection" id="redirectionWork" href="">
+<a class="redirection" id="redirectionWork" href="#work">
     WORK 
     <img src="../../../assets/arrow.png" alt="Arrow" loading="lazy">
 </a>
 <h2 id="aboutMe">ABOUT ME</h2>
-<p>
+<p class="descriptionAboutMe" id="firstDescription">
+    I'm a drafter by profession and a 3d artist by passion and because
+    of this my interests are related to design, architecture and archviz.
+    I have worked for <a href="#aboutMe" (click)="readMore();" id="more">... more</a>
+</p>
+<p class="descriptionAboutMe" id="deploy" style="display:none;">
     I'm a drafter by profession and a 3d artist by passion and because
     of this my interests are related to design, architecture and archviz.
     I have worked for more than 10 years providing customers the opportunity
     to visualize their projects, where the main objective has always been
     creating an extraordinary closeness to reality; which as a result
     facilitates the understanding of the conceptual design, finishes and
-    colours, and most importantly, the making of decisions in this respect.
+    colours, and most importantly, the making of decisions in this respect. <br><br>
+
     Distribution companies of recognized worldwide brands have given me
     the opportunity to participate in the development of interior design
     and specification of furniture, architectural elements, for corporate
-    spaces, interiors, residential and hospitality projects.
+    spaces, interiors, residential and hospitality projects. <br><br>
 
     I have practiced different digital means of visualization that includes plans,
     construction details, animations, product presentations.
@@ -41,5 +47,6 @@
 <footer id="contact">
     <a href="">xxxxxxxxxxxx@gmail.com</a>
     <br>
-    <a href="">Instagram</a>
+    <img src="../../../assets/instagram.png" alt="Instagram logo" width="20px">
+    <a id="instagram" href="https://www.instagram.com/jota.rosero/?hl=en">jota.rosero</a>
 </footer>

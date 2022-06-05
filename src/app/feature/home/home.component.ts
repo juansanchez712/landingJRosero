@@ -43,4 +43,13 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  readMore(){
+    const text = document.getElementById("deploy");
+    const readMore = document.getElementById("firstDescription");
+    if(text!=null && readMore!=null){
+      text.style.display="block";   
+      readMore.style.display="none";
+      }
+    }
+
 }
