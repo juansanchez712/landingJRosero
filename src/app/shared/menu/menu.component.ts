@@ -16,7 +16,7 @@ export class MenuComponent implements OnInit {
 
   navbarScroll() {
     let top = window.scrollY;
-    this.opacity = (top<100)?1:0;
-}
+    this.opacity = (top<10)?1:0;
+  }
 
 }
