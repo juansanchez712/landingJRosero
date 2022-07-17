@@ -94,20 +94,11 @@ a {
     margin-left: 10px;
 }
 
-.body {
-    display: none;
-}
-
 #more {
     margin-left: 65%;
 }
 
 @media(min-width: 992px){
-
-    .body {
-        display: block;
-        padding: 0 10% 0 10%;
-    }
 
     * {
         box-sizing: border-box;
@@ -124,7 +115,14 @@ a {
 
     .row {
         display: flex;
+        flex-direction: row;
+        padding-left: 5%;
     }   
+
+    #card {
+        width: 30%;
+        margin-left: 1%;
+    }
 
     #redirectionView{
         margin-left: 70%;

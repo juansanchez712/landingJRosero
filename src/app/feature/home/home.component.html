@@ -1,5 +1,8 @@
 <app-menu></app-menu>
-<img id="imageBanner" src="../../../assets/MOBILE 071222 1.png" alt="Desktop with blue chair" loading="lazy">
+<img class="d-md-block d-lg-none" id="imageBanner" src="../../../assets/MOBILE 071222 1.png"
+    alt="Desktop with blue chair" loading="lazy">
+<img class="d-none d-lg-block d-xl-block" id="imageBanner" src="../../../assets/DESKTOP 071222.jpg"
+    alt="Desktop with blue chair" loading="lazy">
 <h1 id="title">Architectural Visualization</h1>
 
 <h2 id="aboutMe">Hi! I'm Jorge.
@@ -31,64 +34,13 @@
 </p>
 <h2 id="work">WORK</h2>
 
-<div class="row d-lg-none" id="cards">
+<div class="row" id="cards">
     <div *ngFor="let card of cards" class="column" id="card">
         <figure>
             <img id="image" src="{{card.image}}" alt="{{card.alt}}" loading="lazy">
         </figure>
         <div id="description">
             <p>{{card.description}}</p>
-        </div>
-    </div>
-</div>
-
-<div class="body d-sm-none d-md-none d-lg-block">
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="small">
-                <figure>
-                    <img id="image" src="{{cards[1].image}}" alt="{{cards[1].alt}}" loading="lazy">
-                </figure>
-                <div id="description">
-                    <p>{{cards[1].description}}</p>
-                </div>
-            </div>
-            <div class="small">
-                <figure>
-                    <img id="image" src="{{cards[2].image}}" alt="{{cards[2].alt}}" loading="lazy">
-                </figure>
-                <div id="description">
-                    <p>{{cards[2].description}}</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="normal">
-                <figure>
-                    <img id="image" src="{{cards[0].image}}" alt="{{cards[0].alt}}" loading="lazy">
-                </figure>
-                <div id="description">
-                    <p>{{cards[0].description}}</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-4">
-            <div class="small">
-                <figure>
-                    <img id="image" src="{{cards[1].image}}" alt="{{cards[1].alt}}" loading="lazy">
-                </figure>
-                <div id="description">
-                    <p>{{cards[1].description}}</p>
-                </div>
-            </div>
-            <div class="small">
-                <figure>
-                    <img id="image" src="{{cards[1].image}}" alt="{{cards[1].alt}}" loading="lazy">
-                </figure>
-                <div id="description">
-                    <p>{{cards[1].description}}</p>
-                </div>
-            </div>
         </div>
     </div>
 </div>

@@ -58,23 +58,28 @@ nav > img {
 
 @media(min-width: 992px){
     nav {
-        background-color: #003C55;
         color: white;
     }
+    
     .menuDesktop {
         display: block;
     }
 
     ul {
         list-style: none;
-        width: 40%;
+        width: 60%;
         margin: 0; 
         // padding-top: 10px;
+    }
+
+    nav > img {
+        margin-right: 30%;
     }
 
     a {
         text-decoration: none;
         color: white;
+        margin-right: 10%;
     }
 
     li {

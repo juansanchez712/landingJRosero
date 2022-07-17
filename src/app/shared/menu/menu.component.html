@@ -1,5 +1,5 @@
 <nav>
-  <img src="../../../assets/logoFondoNegro.png" alt="Logo de Jorge Rosero" loading="lazy">
+  <img src="../../../assets/logoFondoNegro.png" alt="Logo de Jorge Rosero" loading="lazy" (click)="goToHome()">
   <!-- <p [style.opacity]="opacity" (window:scroll)="navbarScroll()">JORGE <strong>ROSERO</strong></p> -->
   <div class="dropdown d-md-block d-lg-none">
       <a id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -12,10 +12,9 @@
       </ul>
   </div>
   <ul class="menuDesktop">
-    <li><a class="" href="#aboutMe">ABOUT ME</a></li>
-    <li><a class="" href="#work">WORK</a></li>
-    <li><a class="" href="#contact">CONTACT</a></li>
+    <li><a class="optionMenu" href="#aboutMe" style="color: white">ABOUT ME</a></li>
+    <li><a class="optionMenu" href="#work" style="color: white">WORK</a></li>
+    <li><a class="optionMenu" href="#contact" style="color: white">CONTACT</a></li>
   </ul>
 </nav>
-
 
