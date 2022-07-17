@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { cards } from '../utils/cards';
 
 @Component({
-  selector: 'app-work',
-  templateUrl: './work.component.html',
-  styleUrls: ['./work.component.scss' ]
+  selector: 'app-slider',
+  templateUrl: './slider.component.html',
+  styleUrls: ['./slider.component.scss']
 })
-export class WorkComponent implements OnInit {
+export class SliderComponent implements OnInit {
 
   cards = cards;
   constructor() { }
