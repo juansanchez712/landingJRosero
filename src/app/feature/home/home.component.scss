@@ -5,7 +5,7 @@
 }
 
 h1, .invitation {
-    color: #003C55;
+    color: #000;
     font-weight: 700;
     font-size: 34px;
     line-height: 34px;
@@ -15,7 +15,7 @@ h1, .invitation {
 }
 
 h2 {
-    color: #003C55;
+    color: #000;
     font-weight: 700;
     font-size: 24px;
     line-height: 34px; 
@@ -63,7 +63,7 @@ h3 {
     font-size: 14px;
     font-weight: 600;
     line-height: 18px;
-    color: #003C55;
+    color: #000;
 }
 
 #redirectionWork {
@@ -73,6 +73,10 @@ h3 {
 
 #redirectionView {
     margin-left: 60%;
+}
+
+#redirectionViewTop{
+    margin-left: 70%;
 }
 
 a {
@@ -93,6 +97,10 @@ a {
 
 .body {
     display: none;
+}
+
+#more {
+    margin-left: 70%;
 }
 
 @media(min-width: 992px){
