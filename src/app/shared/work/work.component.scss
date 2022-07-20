@@ -123,5 +123,12 @@ a {
         margin-left: 70%;
     }
 
+    .normal > figure > img {
+        height: 600px;
+    }
+
+    .small > figure > img {
+        height: 265px;
+    }
 
 }

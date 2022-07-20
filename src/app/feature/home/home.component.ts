@@ -23,9 +23,14 @@ export class HomeComponent implements OnInit {
       alt: "Desk with red chairs" 
     }
   ];
+  ancho: number=0;
+  
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  ngOnchanges(){
+    console.log("este es la lonfigutd", window.innerWidth);
   }
 
   readMore(){
