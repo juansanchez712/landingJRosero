@@ -116,12 +116,17 @@ a {
     .row {
         display: flex;
         flex-direction: row;
-        padding-left: 5%;
+        padding-left: 8%;
     }   
 
     #card {
         width: 30%;
         margin-left: 1%;
+    }
+
+    figure > img {
+        height: 600px;
+        width: auto;
     }
 
     #redirectionView{
